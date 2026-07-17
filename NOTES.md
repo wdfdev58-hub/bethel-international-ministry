@@ -24,11 +24,11 @@ match their real site's nav exactly: About · Vision · Pastor · Visit · Conta
   across multiple mentions (monogram "NM", full name x2, "Pastor Nonceba" CTA) and
   refers to her as "she/her" (Senior Pastor). Used Nonceba Mafu throughout; flagged
   the correction to the operator rather than silently overriding what they'd given.
-- **Real logo**: no source file was supplied — cropped the circular gold "open door"
-  crest directly out of their hero screenshot (at native 2880×1800 resolution),
-  applied a circular alpha mask so it composites cleanly onto our dark background.
-  Also re-cropped a favicon from the same source. If they ever send the original
-  vector/source file, swap it in for a cleaner edge.
+- **Real logo**: initially cropped the circular gold "open door" crest out of their
+  hero screenshot since no source file existed yet. The operator later sent the real
+  source PNG (873×873, no screenshot compression/scaling artifacts) — swapped that in
+  for `logo.png` and regenerated the favicon from it, keeping the same circular alpha
+  mask so it still composites cleanly onto the dark background.
 - **About** (`#about`, was "Welcome"): real "The door is open" framing, kept our
   pastor-led welcome paragraph with the corrected name.
 - **Vision & Mission** (`#vision`, new section, replaced the generic "what to expect"
