@@ -1,17 +1,11 @@
-Photography: Pexels. License does not require attribution, credited here anyway.
+No stock photography on this site by design.
 
-hero.jpg — unattributed silhouette, hands raised in worship (no visible race)
-welcome.jpg — MBARAGA BERNARD, "Joyful Celebration in a Vibrant Church Setting"
-moment-1.jpg (Worship) — Megwara Favour, "Energetic Church Choir Singing in Lagos"
-moment-2.jpg (Prayer) — MART PRODUCTION
-moment-3.jpg (Community) — TRIPLE LENS PHOTOGRAPHY
-visit.jpg — unattributed bible/candle still life (no people)
+The operator reviewed the v1 photography and asked for it to be removed, pointing to
+their real Lovable site as the reference — it uses no photos at all, just typography,
+the gold/purple palette, and their crest logo, and reads as elegant that way. Removed
+all stock images (hero, welcome, moments gallery, contact background) and rebuilt
+those sections around type, gradients, and the real logo instead.
 
-Note: welcome.jpg, moment-1.jpg, moment-2.jpg and moment-3.jpg were replaced immediately
-after the v1 generator ran. The generator's default search queries reliably return the
-same mismatched top results every time (an all-white choir for moment-1, a Spanish-language
-Bible for moment-2, and US election-canvassing volunteers with American flags for moment-3)
-regardless of which church it's built for — confirmed by comparing against another church
-built the same day. Re-queried Pexels with explicit "black african" search terms and
-manually reviewed each candidate before choosing. Worth fixing in generate.py itself so
-future builds don't inherit the same defaults.
+logo.png / favicon.png: the church's real circular "open door" crest, cropped directly
+out of their Lovable site screenshot (no source file was available) and given a
+circular alpha mask so it composites cleanly onto the dark background.

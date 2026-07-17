@@ -46,6 +46,25 @@ match their real site's nav exactly: About · Vision · Pastor · Visit · Conta
 - Minor fire-metaphor copy cleanup in the Give section ("Fuel the fire" →
   "Sow into the vision") since it no longer fit next to real, specific content.
 
+## Phase 2 — photography removed entirely
+The operator reviewed the live site and asked for the stock photography to come out,
+specifically flagging the About-section congregation photo, and pointed at their real
+Lovable site as the reference: it uses zero photos, just type + the purple/gold
+palette + the crest logo, and reads as elegant that way. This is a deliberate,
+church-specific departure from CLAUDE.md §7's "images mandatory" floor — the client's
+own direction and reference material override the general default for this build.
+
+- Removed hero.jpg, welcome.jpg, moment-1/2/3.jpg, visit.jpg from disk and every
+  reference to them. Hero and Contact sections now run on pure gradient (existing
+  `.hero-glow` radial glows + the ember canvas particle effect carry the atmosphere).
+- The About section's old image slot now shows their real crest logo large, with the
+  short Zechariah 8:23 quote beneath it — reinforces the brand instead of leaving a
+  gap, without using a photo.
+- Removed the Moments/gallery section entirely rather than replace it with a
+  non-photo substitute — it doesn't exist on their real site either.
+- The Pastor section was already photo-free (their real site uses an "NM" monogram
+  card too, not a headshot) — no change needed there.
+
 ## Still open — nothing in the screenshots
 No service times or physical address appear anywhere on their real site. Times &
 Place section (`#times`) is untouched — still the original placeholder, not
